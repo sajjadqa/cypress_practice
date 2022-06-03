@@ -1,0 +1,19 @@
+{
+  "name": "e2e_cypress_tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^7.7.0",
+    "cypress-plugin-tab": "^1.0.5",
+    "cypress-xpath": "^1.6.2"
+  },
+  "dependencies": {
+    "faker": "^5.5.3"
+  }
+}

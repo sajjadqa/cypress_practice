@@ -1,0 +1,12 @@
+{
+  "projectId": "bog2vx",
+  "catalogRef":"OX5J89OYI8",
+  "viewportWidth": 2000,
+  "viewportHeight": 1260,
+  "baseUrl": "https://stage.invaluable.com",
+  "pageLoadTimeout": 900000,
+  "defaultCommandTimeout": 60000,
+  "requestTimeout": 30000,
+  "watchForFileChanges": false,
+  "failOnStatusCode": false
+}

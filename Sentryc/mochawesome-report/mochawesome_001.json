@@ -1,0 +1,180 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 5,
+    "passes": 5,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-04-08T09:35:48.977Z",
+    "end": "2022-04-08T09:36:17.319Z",
+    "duration": 28342,
+    "testsRegistered": 5,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "c077780e-9d5d-489b-b974-605693c41617",
+      "title": "",
+      "fullFile": "cypress/integration/tests/login_tests.js",
+      "file": "cypress/integration/tests/login_tests.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "39d60d43-f326-41ff-bb9e-ad41c0441f3d",
+          "title": "Sentryc Login tests...",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Verify that user should be able to see no errors with valid credentials.",
+              "fullTitle": "Sentryc Login tests... Verify that user should be able to see no errors with valid credentials.",
+              "timedOut": null,
+              "duration": 13430,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "login_page = new _login_page.default();\nlogin_page.fillLoginFormWithValidCredentials();",
+              "err": {},
+              "uuid": "220baf6c-03d2-45b5-8b42-e593f27131bb",
+              "parentUUID": "39d60d43-f326-41ff-bb9e-ad41c0441f3d",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verify that user should be able to go to forgot password and send reset password request.",
+              "fullTitle": "Sentryc Login tests... Verify that user should be able to go to forgot password and send reset password request.",
+              "timedOut": null,
+              "duration": 5653,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "login_page = new _login_page.default();\nlogin_page.goToForgotPasswordPage();\nlogin_page.restorePassword();",
+              "err": {},
+              "uuid": "b5ee3d82-c319-4b51-a2d4-cc2fa878e586",
+              "parentUUID": "39d60d43-f326-41ff-bb9e-ad41c0441f3d",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verify that user should be able to redirect to login page from forgot password by clicking back to login link.",
+              "fullTitle": "Sentryc Login tests... Verify that user should be able to redirect to login page from forgot password by clicking back to login link.",
+              "timedOut": null,
+              "duration": 1967,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "login_page = new _login_page.default();\nlogin_page.goToForgotPasswordPage();\nlogin_page.clickBackToLoginLink();",
+              "err": {},
+              "uuid": "158a45e7-af8f-443a-8109-23c5bfc2195d",
+              "parentUUID": "39d60d43-f326-41ff-bb9e-ad41c0441f3d",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verify that user should be able to redirect to Terms and Conditions page successfully.",
+              "fullTitle": "Sentryc Login tests... Verify that user should be able to redirect to Terms and Conditions page successfully.",
+              "timedOut": null,
+              "duration": 1338,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "login_page = new _login_page.default();\nlogin_page.goToTermsPage();\nlogin_page.goBackToMainPage();\nlogin_page.goToConditionsPage();\nlogin_page.goBackToMainPage();",
+              "err": {},
+              "uuid": "9397f760-1532-4ae1-96a8-aae473eee766",
+              "parentUUID": "39d60d43-f326-41ff-bb9e-ad41c0441f3d",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verify that the errors validations with invalid email and password.",
+              "fullTitle": "Sentryc Login tests... Verify that the errors validations with invalid email and password.",
+              "timedOut": null,
+              "duration": 5667,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "login_page = new _login_page.default();\nlogin_page.errorValidationWithInvalidCredentials();",
+              "err": {},
+              "uuid": "3990ef4a-7011-475f-8704-707266597705",
+              "parentUUID": "39d60d43-f326-41ff-bb9e-ad41c0441f3d",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "220baf6c-03d2-45b5-8b42-e593f27131bb",
+            "b5ee3d82-c319-4b51-a2d4-cc2fa878e586",
+            "158a45e7-af8f-443a-8109-23c5bfc2195d",
+            "9397f760-1532-4ae1-96a8-aae473eee766",
+            "3990ef4a-7011-475f-8704-707266597705"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 28055,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+    "flightOptionInLeftNav": "[aria-label='Search for flights']",
+    "flightsFDSearchForm": {
+        "flightPageTitleText": ".title-section",
+        "flightMode": ".zcIg > :nth-child(1) > .wIIH > .wIIH-handle",
+        "flightModDropdown": "[class$='mod-alignment-left'][role='tablist']",
+        "roundTripDates": "[class$='zEiP-dates'] [class$='value']",
+        "oneDateFieldInaRow": "[class$='zEiP-date'] [class$='value']",
+        "originField": "[placeholder='From?']",
+        "destinationToField": "[placeholder='To?']",
+        "SmartySelection": "[class$='overlay-dropdown'] ul li:nth-child(1)",
+        "originSelected": "[aria-label='Flight origin input'] [class$='value']",
+        "destinationSeclected": "[aria-label='Flight destination input'] [class$='value']",
+        "destinationField": "[class$='destination'] [aria-label='Flight destination input']",
+        "crossIconOrigin": "[class$='origin'] [aria-label='Remove']",
+        "crossIconDes": "[class$='destination'] [aria-label='Remove']",
+        "passengersContainer": "[class$='formContainer'] > div > div:nth-child(2)",
+        "dropownVisible": "[class*='dropdownVisible']",
+        "adultIncrementButton": "[class$='dropdownOptions'] > div:nth-child(`${num}`) button:nth-child(3)[aria-label='Decrement']",
+        "studentIncrementButton": "[class$='dropdownOptions'] > div:nth-child(2) button:nth-child(3)[aria-label='Decrement']",
+        "seniorsIncrementButton": "[class$='dropdownOptions'] > div:nth-child(3) [button:nth-child(3)[aria-label='Decrement']",
+        "youthsIncrementButton": "[class$='dropdownOptions'] > div:nth-child(4) button:nth-child(3)[aria-label='Decrement']",
+        "childrenIncrementButton": "[class$='dropdownOptions'] > div:nth-child(5) button:nth-child(3)[aria-label='Decrement']",
+        "toddlerIncrementButton": "[class$='dropdownOptions'] > div:nth-child(6) button:nth-child(3)[aria-label='Decrement']",
+        "infantIncrementButton": "[class$='dropdownOptions'] > div:nth-child(7) button:nth-child(3)[aria-label='Decrement']",
+        "selectednumOfPassenger": "[class$='dropdownOptions'] > div:nth-child(1) input",
+        "decrementButtonValue": "[class$='dropdownOptions'] > div:nth-child(1) [aria-label='Decrement'][aria-disabled='true']"
+    }
+}
